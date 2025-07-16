@@ -67,7 +67,6 @@ class LambdaLayer(nn.Module):
     def forward(self, x):
         return self.func(x)
 
-
 class EnhancedBipartiteTransform(nn.Module):
     def __init__(self, n_rxn: int, n_met: int, S_init: torch.Tensor, edge_index: torch.Tensor,
                  num_heads: int = 4, dropout: float = 0.5, S_res_weight: float = 1.0):
