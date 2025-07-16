@@ -1,6 +1,4 @@
 # Amiya
-The fine-tuning code in this version is based on the modifications made to a Python script file named “v0171_fine_gork_masked_corr_huber_loss_minmax_norm_r3.py”. 
-
 The main changes are as follows: 
 
 1. A classifier has been added to the EnhancedBipartiteTransform class.
